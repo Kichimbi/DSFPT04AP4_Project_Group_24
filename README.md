@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 files:
 
@@ -39,3 +40,7 @@ score2 | Away team's score
 quality | Rating of game's quality, based on the harmonic mean of the teams’ pregame Elo ratings, scaled from 0-100
 importance | Rating of game's importance, based on how much the result would affect the model's forecasted playoff odds, scaled from 0-100
 total_rating | The average of `quality` and `importance`
+=======
+# DSFPT04AP4_Project_Group_24 
+Using Recommendation System to predict the score of an NFL team 
+>>>>>>> d6269988224a7a0ce6368c2e5583728e42beb3ad
