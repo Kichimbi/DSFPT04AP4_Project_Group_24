@@ -37,6 +37,6 @@ Resources that helped me start with football data analysis:
 # Miscellaneous data files:
 
 ---
-1. [*La Liga 2020-21 shot stats - Sheet1.csv*] exported from [**FBREF**](https://fbref.com/en/).
-2. [*2020-21 La Liga player stats (per 90s) - Sheet1.csv*] exported from **FBREF**.
+1. [*La Liga 2020-21 shot stats - Sheet1.csv*] exported from [**FBREF**](2020-21 La Liga player stats (per 90s) - Sheet1.csv).
+2. [*2020-21 La Liga player stats (per 90s) - Sheet1.csv*] exported from [**FBREF**.](La Liga 2020-21 shot stats - Sheet1.csv)
 ---
