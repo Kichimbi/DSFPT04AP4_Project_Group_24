@@ -3,6 +3,9 @@ This is a repository introducing hands-on football (soccer) data analyses to tho
 
 # Summary:
 
+## Group 24 Participants: Laban Kariuki, Dennis Kobia, Martin Kithome
+
+
 ---
 
 This project introduces the following concepts:
