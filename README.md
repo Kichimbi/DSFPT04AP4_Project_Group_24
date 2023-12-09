@@ -1,8 +1,9 @@
+## Group 24 Participants: Laban Kariuki, Dennis Kobia, Martin Kithome
+
 # An Introduction to Football (Soccer) Data Analysis with Python
 This is a repository introducing hands-on football (soccer) data analyses to those who want to start working with football data and perform analyses on the same.
 
 # Summary:
-
 ---
 
 This project introduces the following concepts:
@@ -21,6 +22,58 @@ This project introduces the following concepts:
 13. How to use *Naive Bayes Classifier* to predict a pass outcome,
 14. How to use *K-means clustering* to cluster shot outcomes for Barcelona in La Liga
 ---
+
+## RESULTS
+
+## Decision Tree Classifier to classify a shot outcome given some features of the shot, for a particular team
+from statsbombpy import sb
+We get data with the football teams players and the countries where the teams are located
+We also get other statistics which includes'match_id', 'match_date', 'kick_off', 'competition', 'season',
+   'home_team', 'away_team', 'home_score', 'away_score', 'match_status',
+     'match_status_360', 'last_updated', 'last_updated_360', 'match_week',
+     'competition_stage', 'stadium', 'referee', 'home_managers',
+     'away_managers', 'data_version', 'shot_fidelity_version',
+      'xy_fidelity_version'
+      
+## Elastic Net Model to find out the relation between shots by a player and the goals scored
+Here we get to see player names and their age and countries of origin.
+we also see the characteristics of shots scored by the featured players.
+we will use Seaborn's pairplot to visualize the relationships between;
+  '90s':which represents the number of 90-minute periods in a soccer game
+  'Gls':which represents the number of goals.
+  'Sh': which represents the number of shots taken.
+  'SoT': which represents the number of shots on target.
+  'Dist':which represents the distance of shots.
+ 
+## Introductory football analysis (Pass maps, Shot Maps, Heat Maps) and Network Analysis
+from mplsoccer.pitch import Pitch
+Here we have an example of players: Karim Benzema', 'Francisco Román Alarcón Suárez',
+ 'Carlos Henrique Casimiro', 'Toni Kroos', 'Sergio Ramos García',
+  'Marcelo Vieira da Silva Júnior', 'Raphaël Varane',
+  'Daniel Carvajal Ramos', 'Vinícius José Paixão de Oliveira Júnior',
+  'Lionel Andrés Messi Cuccittini', 'Frenkie de Jong',
+  'Arthur Henrique Ramos de Oliveira Melo', 'Gerard Piqué Bernabéu',
+  
+We go ahead to demonstrate some of the happening in the football pitch. some of these
+activities include: 
+'Pass', 'Ball Receipt*', 'Carry', 'Pressure', 'Block',
+ 'Ball Recovery', 'Interception', 'Dribbled Past', 'Dribble',
+ 'Miscontrol', 'Foul Committed', 'Shot', 'Dispossessed', 'Foul Won'
+ 
+## K-Means clustering to cluster shot outcomes for Barcelona
+we use the KMeans class from scikit-learn's clustering module. 
+the KMeans algorithm is is used for partitioning the dataset into the following distinct, non-overlapping subsets (clusters)
+ 'shot_body_part', 'shot_first_time', 'shot_one_on_one',
+ 'shot_open_goal', 'shot_statsbomb_xg', 'shot_technique',
+ 'shot_type', 'shot_outcome'
+ 
+ ## Linear Regression model on football data
+We use La Liga 2020-21 shot stats - Sheet1.csv" data for regression
+Linear regression is a supervised learning algorithm used for predicting a 
+continuous target variable based on one or more predictor features
+
+## Logistic Regression to predict the pass outcome in a match
+LogisticRegression is a class within scikit-learn which we will use for binary and multiclass classification.
 
 # References:
 
