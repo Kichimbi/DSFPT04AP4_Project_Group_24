@@ -26,19 +26,10 @@ This project introduces the following concepts:
 ## RESULTS
 
 ## Decision Tree Classifier to classify a shot outcome given some features of the shot, for a particular team
-from statsbombpy import sb
-We get data with the football teams players and the countries where the teams are located
-We also get other statistics which includes'match_id', 'match_date', 'kick_off', 'competition', 'season',
-   'home_team', 'away_team', 'home_score', 'away_score', 'match_status',
-     'match_status_360', 'last_updated', 'last_updated_360', 'match_week',
-     'competition_stage', 'stadium', 'referee', 'home_managers',
-     'away_managers', 'data_version', 'shot_fidelity_version',
-      'xy_fidelity_version'
+Our first model is based on data from the smartbomby module imported and using the credentials data for us to make prediction in the analysis at hand. The data is composed of the football teams players and the countries where the teams are located. Amongh the fields contained in the data, We statistics on; 'match_id', 'match_date', 'kick_off', 'competition', 'season',   'home_team', 'away_team', 'home_score', 'away_score', 'match_status', 'match_status_360', 'last_updated', 'last_updated_360', 'match_week', 'competition_stage', 'stadium', 'referee', 'home_managers', 'away_managers', 'data_version', 'shot_fidelity_version',and  'xy_fidelity_version'.
       
 ## Elastic Net Model to find out the relation between shots by a player and the goals scored
-Here we get to see player names and their age and countries of origin.
-we also see the characteristics of shots scored by the featured players.
-we will use Seaborn's pairplot to visualize the relationships between;
+In our elastic net model  we get to see player names, their age and countries of origin. We also see the characteristics of shots scored by the featured players using and use Seaborn's pairplot to visualize the relationships between;
   '90s':which represents the number of 90-minute periods in a soccer game
   'Gls':which represents the number of goals.
   'Sh': which represents the number of shots taken.
@@ -46,34 +37,17 @@ we will use Seaborn's pairplot to visualize the relationships between;
   'Dist':which represents the distance of shots.
  
 ## Introductory football analysis (Pass maps, Shot Maps, Heat Maps) and Network Analysis
-from mplsoccer.pitch import Pitch
-Here we have an example of players: Karim Benzema', 'Francisco Román Alarcón Suárez',
- 'Carlos Henrique Casimiro', 'Toni Kroos', 'Sergio Ramos García',
-  'Marcelo Vieira da Silva Júnior', 'Raphaël Varane',
-  'Daniel Carvajal Ramos', 'Vinícius José Paixão de Oliveira Júnior',
-  'Lionel Andrés Messi Cuccittini', 'Frenkie de Jong',
-  'Arthur Henrique Ramos de Oliveira Melo', 'Gerard Piqué Bernabéu',
-  
-We go ahead to demonstrate some of the happening in the football pitch. some of these
-activities include: 
-'Pass', 'Ball Receipt*', 'Carry', 'Pressure', 'Block',
- 'Ball Recovery', 'Interception', 'Dribbled Past', 'Dribble',
- 'Miscontrol', 'Foul Committed', 'Shot', 'Dispossessed', 'Foul Won'
+As part of the analysis, we do a network analysis from mplsoccer library's pitch module. An example of players in our dataset includes; Karim Benzema', 'Francisco Román Alarcón Suárez', 'Carlos Henrique Casimiro', 'Toni Kroos', 'Sergio Ramos García',  'Marcelo Vieira da Silva Júnior', 'Raphaël Varane',  'Daniel Carvajal Ramos', 'Vinícius José Paixão de Oliveira Júnior',  'Lionel Andrés Messi Cuccittini', 'Frenkie de Jong',  'Arthur Henrique Ramos de Oliveira Melo', and 'Gerard Piqué Bernabéu'.  
+We go ahead to demonstrate some of the happenings in the football pitch where some of these activities include:'Pass', 'Ball Receipt*', 'Carry', 'Pressure', 'Block', 'Ball Recovery', 'Interception', 'Dribbled Past', 'Dribble', 'Miscontrol', 'Foul Committed', 'Shot', Dispossessed', and 'Foul Won'.
  
 ## K-Means clustering to cluster shot outcomes for Barcelona
-we use the KMeans class from scikit-learn's clustering module. 
-the KMeans algorithm is is used for partitioning the dataset into the following distinct, non-overlapping subsets (clusters)
- 'shot_body_part', 'shot_first_time', 'shot_one_on_one',
- 'shot_open_goal', 'shot_statsbomb_xg', 'shot_technique',
- 'shot_type', 'shot_outcome'
+We further go ahaed and use the KMeans class from scikit-learn's clustering module to partition the dataset into the following distinct, non-overlapping subsets (clusters); 'shot_body_part', 'shot_first_time', 'shot_one_on_one', 'shot_open_goal', 'shot_statsbomb_xg', 'shot_technique', and 'shot_type', 'shot_outcome'.
  
  ## Linear Regression model on football data
-We use La Liga 2020-21 shot stats - Sheet1.csv" data for regression
-Linear regression is a supervised learning algorithm used for predicting a 
-continuous target variable based on one or more predictor features
+As part of establishing linear regression in our "La Liga 2020-21 shot stats - Sheet1.csv" data, using a supervised learning algorithm  for predicting a continuous target variable based on our predictor features.
 
 ## Logistic Regression to predict the pass outcome in a match
-LogisticRegression is a class within scikit-learn which we will use for binary and multiclass classification.
+We also use Logistic Regression library of the scikit-learn method  for binary and multiclass classification if the football data and this gives us a good understanding of the .
 
 # References:
 
