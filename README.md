@@ -1,7 +1,7 @@
 ## Group 24 Participants: Laban Kariuki, Dennis Kobia, Martin Kithome
 
 # An Introduction to Football (Soccer) Data Analysis with Python
-This is a repository introducing hands-on football (soccer) data analyses to those who want to start working with football data and perform analyses on the same.
+This is a repository introducing hands-on football (soccer) data analyses that looks towards coming up with predictions for team scores given a number of attributes in the data at hand.
 
 # Summary:
 ---
